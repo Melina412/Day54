@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    background-color: rgb(252, 223, 190);
+    padding: 1rem;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      background-color: rgb(134, 242, 240);
+      font-size: 1.6rem;
+      border: 1px solid lightpink;
+      border-radius: 20px;
+      padding: 1rem 2rem;
+
+      &.active {
+        background-color: rgb(57, 164, 163);
+      }
+    }
+  }
+
+  div.headline {
+    background-color: rgb(57, 164, 163);
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+    h1 {
+      color: #fff;
+    }
+  }
+}
